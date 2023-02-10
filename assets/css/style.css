@@ -1,0 +1,57 @@
+html
+{
+	background-color: rgb(214,169,255);
+	font-size: 14px;
+	width: absolute;
+}
+
+h1
+{
+	font-size: 350%;
+}
+
+h2
+{
+	font-size: 225%;
+}
+
+#page
+{
+	display: absolute; 
+	background-color: rgb(240,225,255);
+	width:65%; 
+	padding:50px;
+	margin:auto;
+	border:5px solid purple;
+}
+
+.entete
+{
+	text-align:center;
+}
+
+#aboutme
+{
+	font-family: 'Cardo', serif;
+	text-align: justify; 
+}
+
+a.invisible:link /*liens non visités */
+{ 
+	font-style: italic;
+	text-decoration:none; /*enlever les liens en souligné */
+	color: rgb(80,29,84); /*couleur du lien */
+} 
+
+a.invisible:visited /* liens visités */
+{ 
+	font-style: italic;
+	text-decoration:none; 
+	color: rgb(80,29,84);
+}
+
+.footer
+{
+	text-align:center;
+	font-size:18px;
+}
